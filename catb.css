@@ -1,0 +1,92 @@
+body {
+  font-size: 1.75em;
+  margin: 0;
+}
+
+.sect1 {
+  max-width: 750px;
+  margin: 5em auto 0 auto;
+  color: #222;
+}
+
+.sect1 p {
+  line-height: 1.5em;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: #111;
+}
+
+blockquote {
+  border-left: 3px solid #ddd;
+  padding-left: 1.5em;
+  margin-left: 1em;
+  color: #666;
+}
+
+.navheader {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  font-size: 1em;
+  background-color: rgba(255,255,255, 0.85);
+  border-bottom: 1px solid #efefef;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+
+.navheader table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.navheader table, .navheader tr, .navheader tbody {
+  width: 100%;
+}
+
+.navheader th {
+  font-family: sans-serif;
+  font-size: 1.3em;
+}
+
+.scrolled .navheader th {
+  font-size: 1em;
+}
+
+.navheader tr:nth-child(2) {
+  margin-top: -2em;
+  font-size: 2em;
+  height: 1em;
+}
+
+.navheader tr:nth-child(2) > td {
+  padding: 0 1em 0 1em;
+  height: 1em;
+}
+
+.navheader hr {
+  display: none;
+}
+
+.navheader a {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.navheader a[accesskey="p"]::before {
+  content: "< ";
+}
+.navheader a[accesskey="n"]::after {
+  content: " >";
+}
+
+a[href] {
+  color: #4b82e4;
+  text-decoration: none;
+}
+
+a[href]:hover {
+  color: #5b92F4;
+  text-decoration: underline;
+}
